@@ -11,7 +11,7 @@ z1 = numpy.array([3,8,1,10])
 z3  = numpy.array([4,5,6,7])
 z4  = numpy.array([6,2,6,11])
 plt.plot(z,z1,z3,z4)
-plt.title("Sports Watch Data", loc = 'left')
+plt.title("Sports Watch Data", loc = 'left') # 为绘图创建标题
 plt.xlabel("Average Pulse")
 plt.ylabel("Calorie Burnage")
 plt.show()
