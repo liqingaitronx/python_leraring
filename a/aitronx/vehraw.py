@@ -37,7 +37,7 @@ def parse_vehraw(filename):
     return np.asarray(times), np.asarray(alldata)
 
 if __name__ == "__main__":
-    times, wheelspeed = parse_vehraw("canbus_rec1.txt")
+    times, wheelspeed = parse_vehraw("canbus_rec.txt")
     print("wheelspeed shape: ", wheelspeed.shape)
 
     fig, ax = plt.subplots()
